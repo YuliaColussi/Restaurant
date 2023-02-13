@@ -1,0 +1,59 @@
+h1, h2, p {
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+    padding: .6rem;
+}
+
+button {
+    padding: .6rem;
+    color: white;
+    border: none;
+}
+
+nav ul {
+   display: flex;
+    justify-content: center;
+}
+
+nav ul li:last-child {
+    background-color: #A3171F;
+    color: white;
+}
+
+#aboutTop {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 29rem;
+    right: 2rem;
+}
+
+#aboutTop div {
+    width: 30%;
+    border: .1rem solid #99C4B0;
+    padding: 1rem;
+    background-color: #F4F5F1;
+}
+
+#aboutTop div button{
+    background-color: #A3171F;
+    width: 30%;
+}
+
+#menuNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+#menuNav ul li button {
+    background-color: black;
+    text-transform: capitalize;
+}
+
+#menuNavPdfDownload {
+    text-align: center;
+}
