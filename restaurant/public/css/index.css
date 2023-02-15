@@ -3,6 +3,18 @@ h1, h2, p {
     list-style: none;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+button, a {
+    cursor: pointer;
+}
+
 li {
     list-style: none;
     padding: .6rem;
@@ -28,8 +40,9 @@ nav ul li:last-child {
     display: flex;
     justify-content: right;
     position: absolute;
-    top: 29rem;
+    top: 22rem;
     right: 2rem;
+    text-align: center;
 }
 
 #aboutTop div {
@@ -39,7 +52,7 @@ nav ul li:last-child {
     background-color: #F4F5F1;
 }
 
-#aboutTop div button{
+#aboutTop div button {
     background-color: #A3171F;
     width: 30%;
 }
@@ -54,6 +67,72 @@ nav ul li:last-child {
     text-transform: capitalize;
 }
 
+#menuNav ul li button:hover {
+    background-color: #A3171F;
+}
+
 #menuNavPdfDownload {
     text-align: center;
+}
+
+#menuNavPdfDownload button {
+    color: black;
+}
+
+#privateDining sector, #about sector {
+    display: flex;
+    justify-content: center;
+}
+
+#privateDining sector div {
+    width: 40%;
+}
+
+
+#privateDining sector div, #about sector div:first-child {
+    width: 30%;
+}
+
+#about sector div {
+    padding: 4rem;
+}
+
+#about sector div p {
+    width: 70%;
+}
+
+#privateDining sector div:last-child, #about sector div:last-child{
+    width: 30%;
+    padding: 4rem;
+    background-color: #F4F5F1;
+}
+
+#privateDining sector div:last-child p, #about sector div p {
+   text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+#privateDining img, #about img {
+    width: 100%;
+}
+
+.secondaryBtn {
+    border: 1px solid black;
+    color: black;
+    width: 50%;
+}
+
+#events {
+    color: white;
+    margin: 3rem;
+    padding: 5rem;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../img/kitchen2.jpeg');
+    background-position: 32% 75%;
+    text-align: center;
+}
+
+#events p {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
 }
