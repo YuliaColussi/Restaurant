@@ -79,35 +79,43 @@ nav ul li:last-child {
     color: black;
 }
 
-#privateDining sector, #about sector {
+#privateDining section, #about section, #address section {
     display: flex;
     justify-content: center;
 }
 
-#privateDining sector div {
+#privateDining section div, #address section div {
     width: 40%;
 }
 
 
-#privateDining sector div, #about sector div:first-child {
+#privateDining section div, #about section div:first-child {
     width: 30%;
 }
 
-#about sector div {
+#about section div {
     padding: 4rem;
 }
 
-#about sector div p {
+#about section div p {
     width: 70%;
 }
 
-#privateDining sector div:last-child, #about sector div:last-child{
+#privateDining section div:last-child, #about section div:last-child{
     width: 30%;
     padding: 4rem;
     background-color: #F4F5F1;
 }
 
-#privateDining sector div:last-child p, #about sector div p {
+#address p {
+    text-align: left;
+}
+
+#address section ul {
+    padding: 0;
+}
+
+#privateDining section div:last-child p, #about section div {
    text-align: left;
     margin-bottom: 2.5rem;
 }

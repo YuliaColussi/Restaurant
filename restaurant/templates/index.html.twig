@@ -1,1 +1,149 @@
 {% extends 'base.html.twig' %}
+{% block body %}
+<header class="bg-[#f4f5f1]">
+    <nav class="p-3 w-4/6 m-auto">
+        <ul class="flex flex-row">
+            <li class="basis-1/4">
+                Menu
+            </li>
+            <li class="basis-1/4">
+                Private dining
+            </li>
+            <li class="basis-1/4">
+                Events
+            </li>
+            <li class="basis-1/4">
+                About
+            </li>
+            <li class="basis-1/4">
+                Hours & Location
+            </li>
+            <li class="basis-1/4">
+                Reservation
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <container>
+        <pictire>
+            <img src="img/main.png" width="100%" alt="The drawing of the restaurant">
+        </pictire>
+    </container>
+    <container class="flex flex-row">
+        <div>
+            <h1>Welcome to the heart of Sahune</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <button>Reserve</button>
+        </div>
+    </container>
+    <container>
+        <h2>Current menu</h2>
+        <p>15.02.23 - 15.03.23</p>
+        <div id="menuNav">
+            <ul>
+                <li>
+                    <button>Lunch</button>
+                </li>
+                <li>
+                    <button>Dinner</button>
+                </li>
+                <li>
+                    <button>Dessert</button>
+                </li>
+                <li>
+                    <button>Wine & Coctails</button>
+                </li>
+                <li>
+                    <button>Happy Hour</button>
+                </li>
+            </ul>
+            <div id="menuNavPdfDownload">
+                <button>Download Pdf</button>
+            </div>
+        </div>
+    </container>
+    <container id="privateDining">
+        <h2>Private dining</h2>
+        <section>
+            <div>
+                <picture>
+                    <img src="img/interior2.webp">
+                </picture>
+            </div>
+            <div>
+                <h3>Organise your perfect dinner</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button class="secondaryBtn">Contact us</button>
+            </div>
+        </section>
+    </container>
+    <div id="events">
+        <h2>Events</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <button class="secondaryBtn">Contact us</button>
+    </div>
+    <container id="about">
+        <h2>About</h2>
+        <section>
+            <div>
+                <h3>Organise your perfect dinner</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button class="secondaryBtn">Contact us</button>
+            </div>
+            <div>
+                <picture>
+                    <img src="img/cook.png">
+                </picture>
+            </div>
+        </section>
+    </container>
+    <container id="address">
+        <h2>Hours & Location</h2>
+        <section>
+            <div>
+                <h3>
+                    Opening hours
+                </h3>
+                <ul>
+                    <li>
+                        <h4>Monday - Saturday</h4>
+                        <p>12:00 - 14:00</p>
+                        <p>18:00 - 21:00</p>
+                    </li>
+                    <li>
+                        <h4>Sunday</h4>
+                        <p>Closed</p>
+                    </li>
+                </ul>
+                <h3>
+                    Address
+                </h3>
+                <p>50 rue Taitbout,</p>
+                <p>75009, Paris</p>
+            </div>
+            <div>
+                <h3>Leave us your message</h3>
+                <form>
+                    <div>
+                        <label for="firstname">Your first name: </label>
+                        <input type="text" id="firstname" name="firstname">
+                    </div>
+                    <div>
+                        <label for="secondname">Your second name: </label>
+                        <input type="text" id="secondname" name="secondname">
+                    </div>
+                    <div>
+                        <label for="text">Your message:</label>
+                        <textarea id="text" name="text"></textarea>
+                    </div>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </section>
+    </container>
+</main>
+<footer>
+
+</footer>
+{% endblock %}
