@@ -27,10 +27,10 @@
 <main>
     <container>
         <pictire>
-            <img src="img/main.png" width="100%" alt="The drawing of the restaurant">
+            <img src="{{ asset('/assets/images/main.png') }}" width="100%" alt="The drawing of the restaurant">
         </pictire>
     </container>
-    <container class="flex flex-row">
+    <container>
         <div>
             <h1>Welcome to the heart of Sahune</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -65,42 +65,42 @@
     </container>
     <container id="privateDining">
         <h2>Private dining</h2>
-        <section>
+        <section class="flex flex-row w-3/4 m-auto">
             <div>
                 <picture>
-                    <img src="img/interior2.webp">
+                    <img src="{{ asset('/assets/images/interior2.webp') }}">
                 </picture>
             </div>
-            <div>
+            <div class="p-4">
                 <h3>Organise your perfect dinner</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <button class="secondaryBtn">Contact us</button>
             </div>
         </section>
     </container>
-    <div id="events">
+    <div id="events" class="bg-[url('/public/assets/images/kitchen2.jpeg')]">
         <h2>Events</h2>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         <button class="secondaryBtn">Contact us</button>
     </div>
     <container id="about">
         <h2>About</h2>
-        <section>
-            <div>
+        <section class="flex flex-row w-3/4 m-auto">
+            <div class="w-3/4 p-4">
                 <h3>Organise your perfect dinner</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <button class="secondaryBtn">Contact us</button>
             </div>
             <div>
                 <picture>
-                    <img src="img/cook.png">
+                    <img src="{{ asset('/assets/images/cook.png') }}">
                 </picture>
             </div>
         </section>
     </container>
     <container id="address">
         <h2>Hours & Location</h2>
-        <section>
+        <section class="flex flex-row">
             <div>
                 <h3>
                     Opening hours
