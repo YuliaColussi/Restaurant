@@ -3,9 +3,13 @@ module.exports = {
   content: [
     "./assets/**/*.js",
     "./templates/**/*.html.twig",
-    "./public/index.html"
   ],
   theme: {
+    colors: {
+      'coumtai-green': '#253928',
+      'coumtai-beige': '#dbc097',
+      'white': '#FFFFFF',
+    },
     extend: {},
   },
   plugins: [],
