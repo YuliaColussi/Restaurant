@@ -12,7 +12,7 @@
         src: url("../../public/assets/fonts/Acumin-Pro-ExtraLight.ttf") format("opentype")
     }
 
-    h2, h4 {
+    h1, h2, h4 {
         font-family: 'Erotica';
     }
 
