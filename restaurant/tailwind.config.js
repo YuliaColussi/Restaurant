@@ -5,12 +5,15 @@ module.exports = {
     "./templates/**/*.html.twig",
   ],
   theme: {
-    colors: {
-      'coumtai-green': '#253928',
-      'coumtai-beige': '#dbc097',
-      'white': '#FFFFFF',
+    extend: {
+      colors: {
+        'coumtai-green': '#253928',
+        'coumtai-beige': '#dbc097',
+        'white': '#FFFFFF',
+      },
     },
-    extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }

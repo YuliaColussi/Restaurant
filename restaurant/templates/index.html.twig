@@ -6,32 +6,32 @@
     </pictire>
     <nav class="p-3 w-4/6 m-auto">
         <ul class="flex flex-row">
-            <li class="basis-1/4">
+            <li class="basis-1/4 text-center">
                 <button>
                     Menu
                 </button>
             </li>
-            <li class="basis-1/4">
+            <li class="basis-1/4 text-center">
                 <button>
                 Private dining
                 </button>
             </li>
-            <li class="basis-1/4">
+            <li class="basis-1/4 text-center">
                 <button>
                 Events
                 </button>
             </li>
-            <li class="basis-1/4">
+            <li class="basis-1/4 text-center">
                 <button>
                 About
                 </button>
             </li>
-            <li class="basis-1/4">
+            <li class="basis-1/4 text-center">
                 <button>
                 Hours & Location
                 </button>
             </li>
-            <li class="basis-1/4">
+            <li class="basis-1/4 text-center">
                 <button class="bg-coumtai-green text-white p-2 rounded-full">
                 Reservation
                 </button>
@@ -53,108 +53,145 @@
         </div>
     </container>
     <container class="my-52">
-        <h2 class="text-center">Current menu</h2>
-        <p>15.02.23 - 15.03.23</p>
+        <h2 class="text-center text-4xl py-6">Current menu</h2>
         <div id="menuNav">
-            <ul>
-                <li>
+            <ul class="flex justify-center">
+                <li class="bg-coumtai-beige text-white text-center p-1 w-36 mx-2">
                     <button>Lunch</button>
                 </li>
-                <li>
+                <li class="bg-coumtai-beige text-white text-center p-1 w-36 mx-2">
                     <button>Dinner</button>
                 </li>
-                <li>
+                <li class="bg-coumtai-beige text-white text-center p-1 w-36 mx-2">
                     <button>Dessert</button>
                 </li>
-                <li>
+                <li class="bg-coumtai-beige text-white text-center p-1 w-36 mx-2">
                     <button>Wine & Coctails</button>
                 </li>
-                <li>
+                <li class="bg-coumtai-beige text-white text-center p-1 w-36 mx-2">
                     <button>Happy Hour</button>
                 </li>
             </ul>
-            <div id="menuNavPdfDownload">
+            <div class="text-center m-auto mt-2 block w-1/4 py-2 border-2 border-coumtai-beige rounded-full focus:ring-0 focus:border-coumtai-beige">
                 <button>Download Pdf</button>
             </div>
         </div>
+        <section class="flex flex-row w-2/4 m-auto mb-11 mt-11">
+        <div class="mx-1 border-r-2 border-coumtai-beige p-3">
+            <div class="border-b-2 border-coumtai-beige">
+                <h4 class="text-4xl">Entée</h4>
+                <p class="text-end text-xl text-coumtai-beige">Before the meal</p>
+            </div>
+            <p class="py-4">
+                <span class="text-xl font-black">CAESAR SALAD</span> hearts of romaine, focaccia crouton, parmesan dressing <span class="text-xl font-black">$12</span>
+            </p>
+            <p class="py-4">
+                <span class="text-xl font-black">CAESAR SALAD</span> hearts of romaine, focaccia crouton, parmesan dressing <span class="text-xl font-black">$12</span>
+            </p>
+            <p class="py-4">
+                <span class="text-xl font-black">CAESAR SALAD</span> hearts of romaine, focaccia crouton, parmesan dressing <span class="text-xl font-black">$12</span>
+            </p>
+            <p class="py-4">
+                <span class="text-xl font-black">CAESAR SALAD</span> hearts of romaine, focaccia crouton, parmesan dressing <span class="text-xl font-black">$12</span>
+            </p>
+        </div>
+            <div class="mx-1 p-3">
+                <div class="border-b-2 border-coumtai-beige">
+                    <h4 class="text-4xl">Plat</h4>
+                    <p class="text-end text-xl text-coumtai-beige">The main dish</p>
+                </div>
+                <p class="py-4">
+                    <span class="text-xl font-black">CAESAR SALAD</span> hearts of romaine, focaccia crouton, parmesan dressing <span class="text-xl font-black">$12</span>
+                </p>
+                <p class="py-4">
+                    <span class="text-xl font-black">CAESAR SALAD</span> hearts of romaine, focaccia crouton, parmesan dressing <span class="text-xl font-black">$12</span>
+                </p>
+                <p class="py-4">
+                    <span class="text-xl font-black">CAESAR SALAD</span> hearts of romaine, focaccia crouton, parmesan dressing <span class="text-xl font-black">$12</span>
+                </p>
+                <p class="py-4">
+                    <span class="text-xl font-black">CAESAR SALAD</span> hearts of romaine, focaccia crouton, parmesan dressing <span class="text-xl font-black">$12</span>
+                </p>
+            </div>
+        </section>
     </container>
     <container id="privateDining" class="my-52">
-        <h2 class="text-center">Private dining</h2>
-        <section class="flex flex-row w-3/4 m-auto">
+        <h2 class="text-center text-4xl py-6">Private dining</h2>
+        <section class="flex flex-row w-3/4 m-auto mb-11">
             <div>
                 <picture>
                     <img src="{{ asset('/assets/images/interior2.webp') }}">
                 </picture>
             </div>
             <div class="p-4">
-                <h3>Organise your perfect dinner</h3>
+                <h3 class="py-6 text-2xl text-black">Organise your perfect dinner</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <button class="secondaryBtn">Contact us</button>
+                <button class="mt-11 block w-2/4 py-2 border-2 border-black rounded-full focus:ring-0 focus:border-black">Contact us</button>
             </div>
         </section>
     </container>
     <container class="my-52">
-    <div id="events" class="bg-[url('/public/assets/images/kitchen2.jpeg')] p-6">
-        <h2 class="text-center text-white">Events</h2>
+    <div id="events" class="bg-[url('/public/assets/images/kitchen2.jpeg')] py-24">
+        <h2 class="text-center text-white text-4xl py-6">Events</h2>
         <p class="text-white text-center w-1/4 m-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <button class="secondaryBtn">Contact us</button>
+        <button class="mt-6 block w-1/4 py-2 border-2 border-white m-auto rounded-full focus:ring-0 focus:border-white text-white">Contact us</button>
     </div>
     </container>
     <container id="about" class="my-52">
-        <h2 class="text-center">About</h2>
-        <section class="flex flex-row w-3/4 m-auto">
+        <h2 class="text-center text-4xl py-6">About</h2>
+        <section class="flex flex-row w-3/4 m-auto mb-11">
             <div class="w-3/4 p-4">
-                <h3>Organise your perfect dinner</h3>
+                <h3 class="py-6 text-2xl text-black">Organise your perfect dinner</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <button class="secondaryBtn">Contact us</button>
+                <button class="mt-11 block w-2/4 py-2 border-2 border-black rounded-full focus:ring-0 focus:border-black">Contact us</button>
             </div>
-            <div>
+            <div class="w-full">
                 <picture>
-                    <img src="{{ asset('/assets/images/cook.png') }}">
+                    <img src="{{ asset('/assets/images/interiror4.jpeg') }}">
                 </picture>
             </div>
         </section>
     </container>
     <container id="address" class="my-52">
-        <h2 class="text-center">Hours & Location</h2>
-        <section class="flex flex-row">
-            <div>
-                <h3>
+        <h2 class="text-center text-4xl py-6">Hours & Location</h2>
+        <section class="flex flex-row mb-11 justify-center">
+            <div class="w-1/4">
+                <h3 class="py-6 text-2xl">
                     Opening hours
                 </h3>
                 <ul>
                     <li>
-                        <h4>Monday - Saturday</h4>
+                        <h4 class="text-lg">Monday - Saturday</h4>
                         <p>12:00 - 14:00</p>
                         <p>18:00 - 21:00</p>
                     </li>
                     <li>
-                        <h4>Sunday</h4>
+                        <h4 class="text-lg mt-4">Sunday</h4>
                         <p>Closed</p>
                     </li>
                 </ul>
-                <h3>
+                <h3 class="py-6 text-2xl">
                     Address
                 </h3>
                 <p>50 rue Taitbout,</p>
                 <p>75009, Paris</p>
             </div>
-            <div>
-                <h3>Leave us your message</h3>
+            <div class="w-1/4">
+                <h3 class="py-6 text-2xl">Leave us your message</h3>
                 <form>
                     <div>
-                        <label for="firstname">Your first name: </label>
-                        <input type="text" id="firstname" name="firstname">
+                        <label for="firstname" class="text-gray-700">Your first name: </label>
+                        <input type="text" class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black" name="firstname">
                     </div>
                     <div>
-                        <label for="secondname">Your second name: </label>
-                        <input type="text" id="secondname" name="secondname">
+                        <label for="email" class="text-gray-700">Your email: </label>
+                        <input type="email" id="email" class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black" name="email">
                     </div>
                     <div>
-                        <label for="text">Your message:</label>
-                        <textarea id="text" name="text"></textarea>
+                        <label for="text" class="text-gray-700">Your message:</label>
+                        <textarea id="text" class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black" name="text"></textarea>
                     </div>
-                    <input type="submit" value="submit">
+                    <input type="submit" class="bg-black mt-4 text-white p-2 w-full" value="submit">
                 </form>
             </div>
         </section>

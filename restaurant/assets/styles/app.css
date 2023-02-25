@@ -4,12 +4,24 @@
         src: url("../../public/assets/fonts/ErotiqueAlternateTrial-Bold.ttf") format("opentype")
     }
     @font-face {
-        font-family: 'Acumine-extralight';
+        font-family: 'Acumin-medium';
+        src: url("../../public/assets/fonts/Acumin-Medium.ttf") format("opentype")
+    }
+    @font-face {
+        font-family: 'Acumin-extralight';
         src: url("../../public/assets/fonts/Acumin-Pro-ExtraLight.ttf") format("opentype")
     }
 
+    h2, h4 {
+        font-family: 'Erotica';
+    }
+
+    h3 {
+        font-family: 'Acumin-medium';
+    }
+
     p {
-        font-family: 'Acumine-extralight';
+        font-family: 'Acumin-extralight';
     }
 }
 
